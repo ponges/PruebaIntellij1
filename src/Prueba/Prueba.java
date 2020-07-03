@@ -1,15 +1,15 @@
 package Prueba;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Prueba {
 
     public static void main( String[] args){
 
-        System.setProperty("webdriver.gecko.driver","C:\\Users\\niced\\Documents\\Drivers\\geckodriver.exe");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\niced\\Documents\\Drivers\\chromedriver.exe");
 
-        WebDriver driver = new FirefoxDriver();
+        WebDriver driver = new ChromeDriver();
 
         driver.get("https://en.wikipedia.org");
 
