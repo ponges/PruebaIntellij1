@@ -11,7 +11,7 @@ public class Prueba {
 
         WebDriver driver = new FirefoxDriver();
 
-        driver.get("https://es.wikipedia.org");
+        driver.get("https://en.wikipedia.org");
 
     }
 
